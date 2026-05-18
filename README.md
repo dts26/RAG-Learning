@@ -28,3 +28,8 @@ This system intelligently combines unstructured narrative data (PDFs) with highl
 * **Analytical Queries Fail:** The system cannot reliably answer aggregation questions like *"How many questions are there in total?"*. The RAG architecture only retrieves a subset of the data (Top-K), leading the LLM to provide confidently wrong answers or outright refusal based on incomplete counts.
 * **Dataset-Specific Threshold:** The `0.7` distance threshold is tightly coupled to this specific document corpus and embedding model. It requires manual recalibration if applied to different datasets.
 * **Language Constraint:** The `all-MiniLM-L6-v2` model is predominantly English-only, making this specific pipeline unsuitable for cross-lingual retrieval without swapping the embedding model.
+
+## 🎓 What I've Learned
+* **Fundamentals of RAG:** Gained a deep understanding of the complete RAG workflow, its practical advantages, and its inherent architectural limitations.
+* **The Core Tech Stack:** Realized that developing a robust RAG system relies on four inseparable pillars: intelligent chunking algorithms, a specialized embedding model, a vector database, and the LLM generation engine.
+* **Garbage In, Garbage Out:** Learned that obsessing over the LLM's performance or parameter size is useless if the quality of the context is poor. Moving forward, my primary focus will always be on optimizing data pipelines (chunking strategies and embedding models), as they are the true heartbeat of any RAG system.
