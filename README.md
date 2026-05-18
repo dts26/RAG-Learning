@@ -25,6 +25,6 @@ This system intelligently combines unstructured narrative data (PDFs) with highl
 * **Why Multi-Chunk Context?** Feeding multiple relevant chunks (Top-K) improves the LLM's synthesis capability for questions requiring information from multiple indicators.
 
 ## ⚠️ Known Limitations
-* **Analytical Queries Fail:** The system cannot reliably answer aggregation questions like *"How many questions are there in total?"*. The RAG architecture only retrieves a subset of the data (Top-K), leading the LLM to provide confidently wrong answers based on incomplete counts.
+* **Analytical Queries Fail:** The system cannot reliably answer aggregation questions like *"How many questions are there in total?"*. The RAG architecture only retrieves a subset of the data (Top-K), leading the LLM to provide confidently wrong answers or outright refusal based on incomplete counts.
 * **Dataset-Specific Threshold:** The `0.7` distance threshold is tightly coupled to this specific document corpus and embedding model. It requires manual recalibration if applied to different datasets.
 * **Language Constraint:** The `all-MiniLM-L6-v2` model is predominantly English-only, making this specific pipeline unsuitable for cross-lingual retrieval without swapping the embedding model.
