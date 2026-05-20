@@ -1,0 +1,61 @@
+code;indicator;points;color
+SI1;Ratio of open space area to total area;200;N/A
+SI2;Total area on campus covered in forest vegetation used for research, teaching, and/or community engagement;100;N/A
+SI3;Total area on campus covered in planted vegetation;200;N/A
+SI4;Total open space area divided by total campus population;200;N/A
+SI5;Campus facilities for persons with disabilities, special needs, and/or maternity care;100;N/A
+SI6;Security and safety facilities;100;N/A
+SI7;Health infrastructure to support the well-being of students, academic staff, and administrative staff;100;N/A
+SI8;Conservation of flora, fauna, wildlife, and/or genetic resources secured in medium- or long-term conservation facilities;100;N/A
+EC1;Use of energy-efficient appliances;200;N/A
+EC2;Smart building implementation;300;N/A
+EC3;Number of renewable energy sources on campus;300;N/A
+EC4;Total electricity usage divided by total campus population (kWh per person);200;N/A
+EC5;Ratio of renewable energy production to total annual energy usage;200;N/A
+EC6;Green building elements implemented across buildings;200;N/A
+EC7;Greenhouse gas (GHG) emission reduction program;200;N/A
+EC8;Total carbon footprint divided by total campus population (metric tons per person);200;N/A
+EC9;Number of innovative programs in energy and climate change;100;N/A
+EC10;Impactful university programs on climate change;100;N/A
+WS1;3R (Reduce, Reuse, Recycle) program for university waste;200;N/A
+WS2;Program to reduce paper and plastic use on campus;300;N/A
+WS3;Organic waste treatment;300;N/A
+WS4;Inorganic waste treatment;300;N/A
+WS5;Toxic waste treatment;300;N/A
+WS6;Sewage disposal;300;N/A
+WR1;Total area for water absorption (excluding forest and planted vegetation areas);100;N/A
+WR2;Water conservation program and implementation;200;N/A
+WR3;Water recycling program implementation;200;N/A
+WR4;Use of water-efficient appliances;200;N/A
+WR5;Consumption of treated water;200;N/A
+WR6;Water pollution control in the campus area;200;N/A
+TR1;Number of combustion-engine vehicles (cars and motorcycles) divided by total campus population;200;N/A
+TR2;Shuttle services;250;N/A
+TR3;Availability of Zero-Emission Vehicles (ZEV) on campus;200;N/A
+TR4;Number of ZEV divided by total campus population;200;N/A
+TR5;Ratio of ground parking area to total campus area;200;N/A
+TR6;Program to limit or reduce parking area over the last three years;200;N/A
+TR7;Number of initiatives to reduce private vehicles on campus;200;N/A
+TR8;Pedestrian paths on campus;250;N/A
+ED1;Ratio of sustainability courses to total courses/subjects;200;N/A
+ED2;Ratio of sustainability research funding to total research funding;200;N/A
+ED3;Ratio of sustainability-related scholarly publications to lecturers/researchers (one year period);200;N/A
+ED4;Number of sustainability-related events or program;100;N/A
+ED5;Number of sustainability-related activities organized by student organizations per year;150;N/A
+ED6;Number of cultural activities on campus;100;N/A
+ED7;Number of sustainability programs with international collaborations;100;N/A
+ED8;Number of sustainability-related community services involving students;100;N/A
+ED9;Number of sustainability-related startups;100;N/A
+ED10;Percentage of graduates with green jobs (last three years);50;N/A
+GD1;Percentage of university budget for sustainability efforts;200;N/A
+GD2;University-run sustainability website;200;N/A
+GD3;Sustainability report;100;N/A
+GD4;Financial report;100;light_green
+GD5;Availability of a unit/office coordinating sustainability on campus;100;N/A
+GD6;Use of ICT for sustainability program planning, implementation, monitoring and evaluation;50;light_green
+GD7;Policy on advanced digital technologies (AI/IoT, etc.) to support decision-making, efficiency, and service delivery;50;light_green
+GD8;Ratio of female leaders to total institutional leaders;100;light_green
+GD9;Anti-corruption and integrity system;50;light_green
+GD10;Whistle-blowing and complaint system;50;light_green
+GD11;LMS-Enabled Digital Literacy Program;50;light_green
+GD12;Written code of ethics for university leaders, academic staff, administrative staff, and students;50;light_green
