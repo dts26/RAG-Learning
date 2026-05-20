@@ -1,5 +1,8 @@
 # 📚 RAG - Multi Source Information Retrieval
+-------------------------------------------------------
 ##### The README won't be updated until the new version of the system is finished. Thank you for coming here.
+-------------------------------------------------------
+
 
 > A hybrid Retrieval-Augmented Generation (RAG) project created to learn and implement advanced context injection using real LLM APIs (DeepSeek-V4-Flash).
 
