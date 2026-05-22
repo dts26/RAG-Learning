@@ -263,14 +263,15 @@ def chunk_markdown(filepath: str) -> list[dict]:
                 current_category = line[4:].strip()
                 current_content = [line]
         elif line.startswith("#### "):
-            chunks.append({
-                "content": "\n".join(current_content).strip(),
-                "metadata": {
-                    "source": "pdf",
-                    "chunk_type": current_type,
-                    "category": current_category,
-                },
-            })
+            if current_type is not None:
+                chunks.append({
+                    "content": "\n".join(current_content).strip(),
+                    "metadata": {
+                        "source": "pdf",
+                        "chunk_type": current_type,
+                        "category": current_category,
+                    },
+                })
             current_type = "question"
             current_content = [line]
         elif line.startswith("##### "):
